@@ -1,0 +1,191 @@
+$headerbackgr:	#FFF3F3		/*Header Background Color */
+$headlinebckgr:	#DEDEDE
+$headlinetxt:	white
+$backgr:		black			/*Footer, Text and Navbar Background Color */
+$articletxt:	white			/*Navbar Text Color */
+$box2:			#CECECE			/*background color for the box beneath the insurance box */
+
+
+body
+	font-family: Arial, sans-serif
+
+
+.HeaderLogo
+	background-color: $headerbackgr
+	display: flex
+	flex-flow: row
+	align-items: center
+	justify-content: space-around
+	padding: 1.5em
+	height: 9em
+
+.LogoBox1
+	flex: 1
+	margin-left: 0.5em
+	margin-right: 6em
+	img
+		max-width: 70%
+		width: 70%
+		height: auto
+
+
+.LogoBox2
+	flex: 2
+	img
+		max-width: 100%
+		width: 100%
+		height: auto
+
+
+.Navbar
+	background-color: $backgr
+	display: flex
+	position: sticky
+	top: 0
+	flex-flow: row
+	font-size: 2em
+	height: 1.7em
+	align-items: center
+	a
+		color: $articletxt
+		text-decoration: none
+		padding-right: 0.3em
+		margin-top: 1px
+	ul li
+		display: inline-block
+	li a:hover
+		background-color: #5B1213
+
+.insurance_box
+	display: flex
+	justify-content: space-around
+
+.box1
+	background-image: url("img/traffic-332857_1920.jpg")
+	background-repeat: no-repeat
+	background-size: 100%
+	height: 52em
+	display: flex
+	flex-flow: column
+	justify-content: center
+	align-items: center
+
+.headline
+	color: $headlinetxt
+	padding: 0em 0em 1em 3em
+	font-size: 1.5em
+	align-self: flex-start
+
+.insurance
+	background-color: #C5C5C5
+	height: 43em
+	width: 80%
+	opacity: 0.8
+	border-style: ridge
+	border-color: black
+	border-width: 2px 2px 0px 2px
+	display: flex
+	flex-flow: column
+
+.insuranceTitle
+	height: 17em
+	font-size: 1.5em
+	align-self: center
+	margin-top: 1em
+	line-height: 0em
+	text-align: center
+
+
+.inputBoxes
+	display: flex
+	flex-flow: row
+	justify-content: space-around
+
+
+
+.inputRow
+	height: 12em
+	font-size: 1.5em
+
+
+.calcBox
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 12em
+
+
+
+.outputBox
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 5em
+
+
+.box2
+	display: flex
+	flex-flow: column
+	background-color: $box2
+
+
+.text2
+	justify-content: center
+	text-align: center
+	line-height: 1.6
+	padding: 0.7em
+	h1
+		line-height: 0.3
+
+.blank
+	background-color: #EAEAEA
+	height: 2.5em
+	align-self: center
+	width: 80%
+	border-style: ridge
+	border-color: black
+	border-width: 0px 2px 2px 2px
+	
+
+
+.textbox
+	width: 40%
+	padding: 30px
+	margin: 40px
+	border-style: ridge
+	border-top-color: black
+	border-width: 3px 2px 2px 2px
+	
+
+.textboxH
+	margin-bottom: -0.6em
+	color: #6594B3
+	font-size: 24px
+
+.fa.fa-check
+	display: block
+	margin: 1.7em
+
+
+
+.fa-check::before		//changes the first letter
+	color: #8FD3D5
+
+
+
+.Footer
+	background-color: $backgr
+	display: flex
+	justify-content: flex-end
+	img
+		margin: 2em
+		width: 19em
+		height: 4em
+
+
+.Footertxt
+	background-color: $backgr
+	color: $articletxt
+	display: flex
+	align-items: center
+	justify-content: center
